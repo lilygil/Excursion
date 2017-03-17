@@ -1,0 +1,45 @@
+*::before, *::after, * {
+  box-sizing: border-box;
+}
+
+body,
+html{
+  font-family: Verdana;
+  color: white;
+  display: block;
+
+}
+
+body{
+  background-color: black;
+  text-align: center;
+  margin: 8px;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2{
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p{
+  font-size:21px;
+  color: gray;
+}
+
+a{
+  color: aquamarine;
+  font-size: 16px;
+}
+
+video{
+  object-fit: contain;
+}
+
+.footer{
+  text-align: right;
+}
